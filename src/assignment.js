@@ -18,6 +18,15 @@ function sumOfNumbers(arrayOfNumbers) {
 }
 // assignment.sumOfNumbers = sumOfNumbers;
 
+//solution to Challenge one
+const array = [1, 2, 3, 4, 5, 6];
+let sum = 0;
+
+for (let i = 0; i < array.length; i++) {
+    sum += array[i];
+}
+console.log(sum);
+
 /**
  * Challenge - 2
  * 
@@ -31,6 +40,20 @@ function countEvenNumbers(arrayOfNumbers) {
     return arrayOfNumbers.length;
 }
 // assignment.countEvenNumbers = countEvenNumbers;
+
+//solution to Challenge two
+
+function even(){
+    for(let i=1; i<=20; i++){
+    
+    if(i%2==0){
+    document.write(`Then even number is ${i}`)
+    
+             }
+         }
+    }
+    
+    even();
 
 /**
  * Challenge - 3
